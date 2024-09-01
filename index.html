@@ -1,0 +1,301 @@
+<!doctype html>
+<html>
+    <head>
+        <base href="https://remiburtincatec.wixsite.com/" />
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>CATEC - Intégrateur de solutions</title>
+        <style>
+            body,
+            html {
+                margin: 0;
+                padding: 0;
+                font-family: Arial, sans-serif;
+            }
+            .header {
+                background-color: rgb(160, 218, 85);
+                padding: 10px 0;
+                text-align: right;
+            }
+            .header .social-icons {
+                display: inline-block;
+                margin-right: 20px;
+            }
+            .header .social-icons a {
+                margin-left: 10px;
+                text-decoration: none;
+            }
+            .nav {
+                background-color: #8cc63f;
+                padding: 10px 0;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+            .nav .home-button {
+                margin-left: 20px;
+            }
+            .nav .home-button a {
+                color: white;
+                text-decoration: none;
+                padding: 5px 10px;
+                border: 2px solid white;
+                border-radius: 5px;
+            }
+            .nav ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                text-align: right;
+            }
+            .nav ul li {
+                display: inline;
+                margin: 0 15px;
+            }
+            .nav ul li a {
+                color: white;
+                text-decoration: none;
+            }
+            .main-content {
+                display: flex;
+                justify-content: space-between;
+                background-image: url("https://static.wixstatic.com/media/93507cc36ceb4f698334c53a1c91e168.jpg/v1/fill/w_1512,h_823,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/93507cc36ceb4f698334c53a1c91e168.jpg");
+                background-size: cover;
+                background-position: center;
+                height: 500px;
+            }
+            .left-image {
+                width: 50%;
+                height: 100%;
+                background-image: url("https://example.com/skyscraper.jpg");
+                background-size: cover;
+                background-position: center;
+            }
+            .right-content {
+                width: 50%;
+                padding: 20px;
+                background-color: rgba(249, 249, 249, 0.8);
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+            .logo {
+                max-width: 200px;
+                margin-bottom: 20px;
+            }
+            .company-name {
+                color: #8cc63f;
+                font-size: 35px;
+                font-weight: bold;
+                margin-bottom: 10px;
+            }
+            .tagline {
+                font-size: 18px;
+                margin-bottom: 20px;
+            }
+            .services {
+                display: flex;
+                width: 100%;
+            }
+            .service-box {
+                width: 25%;
+                height: 450px;
+                padding: 20px;
+                text-align: center;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+            .service-box img {
+                width: 50px;
+                height: 50px;
+                margin-bottom: 20px;
+            }
+            .service-box:nth-child(1) {
+                background-color: #8cc63f;
+            }
+            .service-box:nth-child(2) {
+                background-color: #39b54a;
+            }
+            .service-box:nth-child(3) {
+                background-color: #0071bc;
+            }
+            .service-box:nth-child(4) {
+                background-color: #2e3192;
+            }
+            .service-box h3,
+            .service-box a {
+                color: white;
+                text-decoration: none;
+            }
+            .service-box h3 {
+                margin-bottom: 20px;
+            }
+            .footer {
+                text-align: center;
+                padding: 20px 0;
+                background-color: #f0f0f0;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="header">
+            <div class="home-button">
+                <a
+                    href="/"
+                    style="
+                        color: white;
+                        text-decoration: none;
+                        padding: 5px 10px;
+                        border: 2px solid white;
+                        border-radius: 20px;
+                        transition: all 0.3s ease;
+                    "
+                    >Accueil</a
+                >
+            </div>
+            <div class="social-icons" style="margin-left: auto">
+                <a
+                    href="https://www.linkedin.com/company/catec"
+                    aria-label="LinkedIn"
+                    style="margin-left: 10px"
+                    ><svg width="24" height="24" viewBox="0 0 24 24">
+                        <path
+                            d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"
+                            fill="#ffffff"
+                        ></path></svg
+                ></a>
+                <a
+                    href="https://www.facebook.com/catec"
+                    aria-label="Facebook"
+                    style="margin-left: 10px"
+                    ><svg width="24" height="24" viewBox="0 0 24 24">
+                        <path
+                            d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-3 7h-1.924c-.615 0-1.076.252-1.076.889v1.111h3l-.238 3h-2.762v8h-3v-8h-2v-3h2v-1.923c0-2.022 1.064-3.077 3.461-3.077h2.539v3z"
+                            fill="#ffffff"
+                        ></path></svg
+                ></a>
+            </div>
+        </div>
+
+        <nav class="nav">
+            <ul>
+                <li><a href="#efficacite">L'efficacité énergétique</a></li>
+                <li class="separator">|</li>
+                <li><a href="#batiments">Les bâtiments connectés</a></li>
+                <li class="separator">|</li>
+                <li><a href="#reseaux">Les réseaux d'eau</a></li>
+                <li class="separator">|</li>
+                <li><a href="#stations">Les stations météo</a></li>
+                <li class="separator">|</li>
+                <li><a href="#projets">Les projets réalisés</a></li>
+            </ul>
+            <style>
+                .header {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    background-color: #8cc63f;
+                    padding: 10px 20px;
+                }
+                .header .home-button {
+                    margin-right: 20px;
+                }
+                .header .home-button a {
+                    color: white;
+                    text-decoration: none;
+                    padding: 5px 10px;
+                    border: 2px solid white;
+                    border-radius: 5px;
+                    transition: all 0.3s ease;
+                }
+                .header .home-button a:hover {
+                    background-color: white;
+                    color: #8cc63f;
+                }
+                .nav {
+                    background-color: #8cc63f;
+                    padding: 15px 0;
+                }
+                .nav ul {
+                    list-style-type: none;
+                    margin: 0;
+                    padding: 0;
+                    text-align: center;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+                .nav ul li {
+                    display: inline;
+                    margin: 0 15px;
+                }
+                .nav ul li a {
+                    color: white;
+                    text-decoration: none;
+                    font-size: 16px;
+                    transition: all 0.3s ease;
+                }
+                .nav ul li a:hover {
+                    text-decoration: underline;
+                }
+                .nav ul .separator {
+                    color: white;
+                    font-size: 18px;
+                }
+            </style>
+        </nav>
+
+        <div class="main-content">
+            <div class="left-image"></div>
+            <div class="right-content">
+                <img
+                    src="https://static.wixstatic.com/media/6287b6_436ce419e6e7403cab94e0bb4f09b946~mv2.png/v1/crop/x_0,y_0,w_440,h_682/fill/w_258,h_398,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/LOG.png"
+                    alt="CATEC Logo"
+                    class="logo"
+                />
+                <div class="company-name">CATEC</div>
+                <div class="tagline">Intégrateur de solutions</div>
+                <a
+                    href="#en-savoir-plus"
+                    style="color: #8cc63f; text-decoration: none"
+                    >En savoir plus</a
+                >
+            </div>
+        </div>
+
+        <div class="services">
+            <div class="service-box">
+                <img src="./lampe.svg" alt="Icône efficacité énergétique" />
+                <h3>L'EFFICACITÉ ÉNERGÉTIQUE</h3>
+                <a href="#en-savoir-plus">En savoir plus</a>
+            </div>
+            <div class="service-box">
+                <img src="./building.svg" alt="Icône bâtiments connectés" />
+                <h3>LES BÂTIMENTS CONNECTÉS</h3>
+                <a href="#en-savoir-plus">En savoir plus</a>
+            </div>
+            <div class="service-box">
+                <img src="eau.svg" alt="Icône réseaux d'eau" />
+                <h3>LES RÉSEAUX D'EAU</h3>
+                <a href="#en-savoir-plus">En savoir plus</a>
+            </div>
+            <div class="service-box">
+                <img src="meteo.svg" alt="Icône stations météo" />
+                <h3>LES STATIONS MÉTÉO</h3>
+                <a href="#en-savoir-plus">En savoir plus</a>
+            </div>
+        </div>
+
+        <footer class="footer">
+            <img
+                src="https://static.wixstatic.com/media/6287b6_436ce419e6e7403cab94e0bb4f09b946~mv2.png/v1/crop/x_0,y_0,w_440,h_682/fill/w_258,h_398,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/LOG.png"
+                alt="CATEC Logo"
+                style="width: 100px"
+            />
+            <p>21 rue Victor Hugo<br />54210 NEUVES MAISONS<br />France</p>
+        </footer>
+    </body>
+</html>
